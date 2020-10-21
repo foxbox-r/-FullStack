@@ -1,0 +1,25 @@
+{
+    "parserOptions":{
+        "ecmaVerision":2020,
+        "sourceType":"module",
+        "ecmaFeatures":{
+            "jsx":true
+        },
+        "evn":{
+            "browser":true,
+            "node":true,
+            "es6":true
+        },
+        "extends":[
+            "eslnit:recommended",
+            "plugin:react/recommended"
+        ],
+        "plugins":[
+            "import",
+            "react-hooks"
+        ],
+        "rules":{
+
+        }
+    }
+}
